@@ -5,8 +5,8 @@ Attempt at making views more stateful by autogenerating drawables and colors
 The idéa is that missing states (like pressed and disabled) can be generated from default state.
 Generate and set missing states:
 ```java
-  Button button = (Button)findViewById(R.id.button);
-  AutoState.apply(button)
+Button button = (Button)findViewById(R.id.button);
+AutoState.apply(button)
 ```
 
 ### Exameple
