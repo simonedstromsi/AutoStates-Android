@@ -6,7 +6,7 @@ The idéa is that missing states (like pressed and disabled) can be generated fr
 Generate and set missing states:
 ```java
 Button button = (Button)findViewById(R.id.button);
-AutoState.apply(button)
+AutoState.apply(button);
 ```
 
 ### Exameple
