@@ -56,8 +56,7 @@ public class AutoState {
     /**
      * Pressed states
      */
-
-    private final static int PRESSED_DRAWABLE = Color.argb(30, 0, 0, 0);
+    private final static int PRESSED_DRAWABLE = Color.argb(50, 0, 0, 0);
     private static Drawable pressed(Drawable source) {
         Drawable drawable = source.getConstantState().newDrawable();
         drawable.setColorFilter(PRESSED_DRAWABLE, PorterDuff.Mode.SRC_OVER);
